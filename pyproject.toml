@@ -1,0 +1,7 @@
+[project]
+name = "stylo512"
+version = "0.1.0"
+description = "How many words does it take to identify an author? Burrows' Delta stylometry experiment."
+requires-python = ">=3.10"
+[project.scripts]
+stylo512 = "stylo512.cli:main"
